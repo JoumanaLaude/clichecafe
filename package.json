@@ -1,0 +1,29 @@
+{
+  "name": "clichecafe",
+  "version": "1.0.0",
+  "description": "Portfolio project for Nucamp called Cliche Cafe",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoumanaLaude/clichecafe.git"
+  },
+  "author": "Joumana Laude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoumanaLaude/clichecafe/issues"
+  },
+  "homepage": "https://github.com/JoumanaLaude/clichecafe#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
