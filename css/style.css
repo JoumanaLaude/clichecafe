@@ -1,0 +1,73 @@
+body {
+  background-color: #ffd4844d;
+  color: #000;
+}
+
+/*.wrapper {
+  margin: 0 10%;
+} */
+
+.navbar {
+  background-color: #ffd484e5;
+  height: 80px;
+  /*margin-top: -100px; */
+ }
+
+.navbar-light .navbar-nav .nav-link {
+  font: 1.5rem 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: rgb(44, 42, 42);
+ }
+
+ .dropdown-item, .dropdown-menu {
+   background-color: #faf3f3;
+   font: 1.2rem 'Libre Baskerville', serif;
+   font-weight: 400;
+ }
+
+ .dropdown-item {
+  color: #000;
+ }
+
+ .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+ }
+
+ .carousel-indicators li {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.carousel-indicators {
+  bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+ h1 {
+  font: 6rem 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.808);
+  text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.623);
+ }
+
+ h2 {
+  font: 3rem 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.808);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+ }
+
+ a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #ffd484ce;
+}
