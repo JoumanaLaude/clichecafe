@@ -3,6 +3,10 @@ body {
   color: rgb(53, 49, 49);
 }
 
+.container-hr {
+  border-top: 1px solid #ffe2ad;
+}
+
 .navbar {
   background-color: #ffe2adf1;
 }
@@ -38,8 +42,8 @@ h1 { /*for carousel headers */
 }
 
 h2 { /*section headers */
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
+  font: 3rem 'Libre Baskerville', serif;
+  font-weight: 300;
   color: #000;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
 }
