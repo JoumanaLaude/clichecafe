@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Cliche Cafe</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-lg fa-heart"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menus.html">Menus</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Members
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Reserve</a>
+              <a class="dropdown-item" href="#">Events</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><strong>Become a Member</strong></a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container my-5 py-5">
+   <ul class="nav nav-tabs">
+      <li class="active"><a href="#">Full Menu</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cafe Bites
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Small Bites</a></li>
+          <li><a href="#">Sweets</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Drinks</a></li>
+      <li><a href="#">Boba Bar</a></li>
+    </ul>
+</div>
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
