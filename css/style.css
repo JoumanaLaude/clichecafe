@@ -5,18 +5,18 @@ body {
 
 .navbar {
   background-color: #ffe2adf1;
-  /*margin-top: -100px; */
 }
 
 .navbar-light .navbar-nav .nav-link {
   font: 1.4rem 'Libre Baskerville', serif;
   font-weight: 400;
   color: rgb(53, 49, 49);
+  padding: 15px;
 }
 
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-color: #000;
+  color: #000;
 }
 
 .dropdown-item, .dropdown-menu {
@@ -30,22 +30,18 @@ color: #000;
   color: rgb(53, 49, 49);
 }
 
-h1 {
-  font: 6rem 'Libre Baskerville', serif;
+h1 { /*for carousel headers */
+  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.808);
   text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.623);
 }
 
-h2 {
-  font: 3rem 'Libre Baskerville', serif;
+h2 { /*section headers */
+  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.808);
+  color: #000;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
-}
-
-.dropdown-item > a:hover, a:focus {
-  color: #ffd484ce;
 }
 
 .carousel-item {
@@ -65,9 +61,12 @@ h2 {
 }
 
 .carousel-indicators li {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
+  background-color: #ffd484cc;
+  bottom: 40px;
+  /* border: 1px solid #faf3f3e0; looks..pixelated when added? fix if can*/
 }
 
 .dropdown-divider {
@@ -75,6 +74,7 @@ border-top: 1px solid #ffe2ad;
 }
  
 a {
+  font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
 }
