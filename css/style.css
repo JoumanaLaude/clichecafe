@@ -11,7 +11,7 @@ body {
 }
 
 .container-hr {
-  border-top: 1px solid #ffe2ad;
+  border-top: 1px solid #B0765E;
 }
 
 .nav-tabs {
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar {
-  background-color: #ffe2adf1;
+  background-color: #ffe2adfb;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -35,7 +35,7 @@ body {
 
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #55433B;
+  color: #000;
 }
 
 .dropdown-item, .dropdown-menu {
@@ -45,7 +45,7 @@ body {
   border: none;
 }
 
-.dropdown-item {
+.dropdown-item, i {
   color: #55433B;
 }
 
@@ -57,7 +57,7 @@ h1 { /*for carousel headers */
 }
 
 h2 { /*section headers */
-  font: 3rem 'Libre Baskerville', serif;
+  font: 2.4rem 'Libre Baskerville', serif;
   font-weight: 300;
   color: #55433B;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
