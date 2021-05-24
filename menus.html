@@ -6,12 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="css/style.css" />
-
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- endbuild -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
@@ -62,11 +63,32 @@
     </ul>
 </div>
 
-  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="scripts.js"></script>
+<footer class="site-footer">
+  <div class="container py-3">
+      <div class="row">
+          <div class="col col-6 text-center">
+              <a href="http://instagram.com/"><i class="fa fa-lg fa-instagram mx-3"></i></a>
+              <a href="http://twitter.com/"><i class="fa fa-lg fa-twitter mx-3"></i></a>
+              <a href="http://youtube.com/"><i class="fa fa-lg fa-youtube pt-4 mx-3"></i></a>
+          </div>
+          <div class="col text-right">
+            <a href="contact.html" class="small">Contact</a>               
+            <a href="#" class="small">Hours</a>
+            <a href="#" class="small">Shop</a>
+            <br />
+            <span class="small">1332 Maple Street</span><br />
+            <span class="small"><i class="fa fa-md fa-phone"></i> 2-133-312-3111</span><br />
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+<!-- endbuild -->
 
 </body>
 

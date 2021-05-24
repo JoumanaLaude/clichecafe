@@ -6,12 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="css/style.css" />
-
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- endbuild -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
@@ -91,7 +92,7 @@
   <div class="container p-5">
     <div class="row">
       <div class="col col-8 col-sm">
-        <h2 text-center">About Us</h2>
+        <h2>About Us</h2>
         <p class="lead">Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly,
           Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle
           half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker. </p>
@@ -110,7 +111,7 @@
         <p><a href="menus.html">View full menu</a></p>
       </div>
       <div class="col">
-        <h2 text-center">Seasonal Menus</h2>
+        <h2>Seasonal Menus</h2>
         <p class="lead text-center">We serve a different menu each season. Currently serving our summer menu.</p>
         <p><img src="images/mango-pudding-jelly.jpg" class="img-fluid rounded" alt="Popular mango jelly pudding"></p>
       </div>
@@ -130,18 +131,12 @@
         <img src=" images/cafe-outside.jpg" class="img-fluid rounded float-right" alt="...">
       </div>
       <div class="col">
-        <h2 text-center">Lounge & Workspace</h2>
+        <h2>Lounge & Workspace</h2>
         <p class="lead">The lounge and workspace areas are first-come, first-serve. If you are a member you can reserve
           a space for yourself or a group.</p>
       </div>
     </div>
   </div>
-
-  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="scripts.js"></script>
 
   <footer class="site-footer">
     <div class="container py-3">
@@ -162,6 +157,13 @@
         </div>
     </div>
 </footer>
+
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+  <!-- endbuild -->
 
 </body>
 
