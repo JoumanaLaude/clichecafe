@@ -20,10 +20,6 @@ body {
   color: #55433B;
   padding: 15px; }
 
-.navbar .navbar-nav .nav-link:not(.disabled):hover,
-.navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #000; }
-
 .dropdown-item, .dropdown-menu {
   background-color: #FFECE3;
   font: 1.2rem 'Libre Baskerville', serif;
@@ -84,7 +80,9 @@ a {
   color: #55433B;
   text-decoration: none; }
 
-a:hover, a:focus, .fa:hover {
+a:hover, a:focus, .fa:hover,
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
   color: #B0765E;
   text-decoration: none; }
 
