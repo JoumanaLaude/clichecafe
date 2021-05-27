@@ -3,16 +3,17 @@ body {
   color: #55433B; }
 
 .container-hr {
-  border-top: 1px solid #B0765E; }
+  border-top: 1px solid #B0765E;
+}
 
-.nav-tabs {
+/* .nav-tabs {
   border-bottom: 1px solid #ffe2ad; }
 
 .nav-tabs, .nav-tabs > li {
-  padding: 10px; }
+  padding: 10px; } */
 
 .navbar {
-  background-color: #ffe2adfb; }
+  background-color: #ffe2ad; }
 
 .navbar-light .navbar-nav .nav-link {
   font: 1.5rem 'Libre Baskerville', serif;
@@ -76,7 +77,7 @@ h2 {
   border-top: 1px solid #ffe2ad; }
 
 a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #55433B;
   text-decoration: none; }
 
@@ -88,3 +89,13 @@ a:hover, a:focus, .fa:hover,
 
 .site-footer {
   background-color: #ffe2ad; }
+
+  @media (min-width: 1200px) {
+    .container{
+        max-width: 1180;
+    }
+}
+
+table {
+  background-color: #ffece3e8;
+}

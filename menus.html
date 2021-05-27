@@ -47,9 +47,8 @@
   </nav>
 
 
-<div class="container my-5 py-5">
-   <ul class="nav nav-tabs">
-      <li class="active"><a href="#">Full Menu</a></li>
+<!-- <div class="container my-5 py-5">
+   <ul class="nav nav-tabs" id="myTab">  
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cafe Bites
         <span class="caret"></span></a>
@@ -61,12 +60,91 @@
       <li><a href="#">Drinks</a></li>
       <li><a href="#">Boba Bar</a></li>
     </ul>
+</div> -->
+
+<div class="container my-5 p-5">
+
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Full Menu</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cafe Food</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cafe Drinks</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Boba Bar</a>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="table-responsive">
+              <table class="table table-hover">
+              <thead >
+                <tr>
+                    <th>image</th>
+                    <th>Name</th>
+                    <th class="d-none d-lg-block">Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td class="d-none d-lg-block">Otto</td>
+                      <td>mark@otto.red</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td class="d-none d-lg-block">Thornton</td>
+                      <td>jacob@thornton.ml</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td class="d-none d-lg-block">Bird</td>
+                      <td>larry@bird.co</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">4</th>
+                      <td>John</td>
+                      <td class="d-none d-lg-block">Doe</td>
+                      <td>john@doe.co</td>
+                  </tr>
+                </tbody>
+            </table>
+            </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+      </div>
+
+
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+      
+      </div>
+      
+
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        
+      </div>
+
+    </div>
+  </div>
 </div>
 
-<footer class="site-footer">
+</div>
+
+
+
+<footer class="site-footer fixed-bottom">
   <div class="container py-3">
       <div class="row">
           <div class="col col-6 text-center">
+            <a href="http://yelp.com/"><i class="fa fa-lg fa-yelp pt-4 mx-3"></i></a>
               <a href="http://instagram.com/"><i class="fa fa-lg fa-instagram mx-3"></i></a>
               <a href="http://twitter.com/"><i class="fa fa-lg fa-twitter mx-3"></i></a>
               <a href="http://youtube.com/"><i class="fa fa-lg fa-youtube pt-4 mx-3"></i></a>
