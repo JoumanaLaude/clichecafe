@@ -36,20 +36,28 @@ body {
   color: #55433B; }
 
 h1 {
-  /*for carousel headers */
+  /* carousel headers */
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   color: #ffe2ad;
   text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.438); }
 
 h2 {
-  /*section headers */
+  /* section headers */
   font-family: "Libre Baskerville", serif;
   font-size: 2.4rem;
   font-weight: 300;
   color: #55433B;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5); }
 
+h3 {
+  /* menu items */
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #55433B;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5); }
+  
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -103,4 +111,17 @@ a:hover, a:focus, .fa:hover,
 
 table {
   background-color: #ffece3e8;
+}
+
+table, th, td
+{
+  border: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #55433B;
+}
+
+.nav-link:focus, .nav-link:hover {
+  background-color: #ffe2ad;
 }
