@@ -2,9 +2,14 @@ body {
   background-color: #FFECE3;
   color: #55433B; }
 
+::-moz-selection {
+  background: #ffe2ad; }
+
+::selection {
+  background: #ffe2ad; }
+
 .container-hr {
-  border-top: 1px solid #B0765E;
-}
+  border-top: 1px solid #B0765E; }
 
 /* .nav-tabs {
   border-bottom: 1px solid #ffe2ad; }
