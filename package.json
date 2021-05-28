@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin images/* -o dist/images && imagemin images/food/* -o dist/images/food",
+    "imagemin": "imagemin images/* -o dist/images && imagemin images/food/* -o dist/images/food && imagemin images/drinks/* -o dist/images/drinks && imagemin images/bubble-tea/* -o dist/images/bubble-tea",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
