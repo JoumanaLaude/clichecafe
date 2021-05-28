@@ -130,6 +130,10 @@ table {
   color:#FFECE3;
 }
 
+.btn:hover {
+  background-color: #B0765E;
+}
+
 .form-control, .form-control:focus, .custom-control-label::before, .custom-file-label, .custom-select {
   border-color: rgba(176, 118, 94, 0.5);
 }
