@@ -125,13 +125,14 @@ table {
   border-top: 1px solid #B0765E;
 }
 
-.btn {
+.reserve-btn {
   background-color: #55433B;
   color:#FFECE3;
 }
 
-.btn:hover {
-  background-color: #B0765E;
+.reserve-btn:hover {
+  background-color: #ffe2ad;
+  color:#B0765E;
 }
 
 .form-control, .form-control:focus, .custom-control-label::before, .custom-file-label, .custom-select {
