@@ -113,15 +113,14 @@ table {
   background-color: #ffece3e8;
 }
 
-table, th, td
-{
-  border: 0px;
-}
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: #55433B;
 }
 
 .nav-link:focus, .nav-link:hover {
   background-color: #ffe2ad;
+}
+
+.table td, .table th {
+  border-top: 1px solid #B0765E;
 }
