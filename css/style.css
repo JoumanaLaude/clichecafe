@@ -167,3 +167,23 @@ input[type="color"]:focus,
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(176, 118, 94, 0.7);
   outline: 0 none;
 }
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.back-to-top {
+  /* position: fixed; */
+  top: 100vh;
+  pointer-events: none;
+}
+.back-to-top-link {
+  /* position: fixed; */
+  pointer-events: all;
+  top: calc(100vh - 15rem);
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 80ms ease-in;
+}
