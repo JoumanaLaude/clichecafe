@@ -121,8 +121,12 @@ table {
   background-color: #ffe2ad;
 }
 
-.table td, .table th {
+.table tr {
   border-top: 1px solid #B0765E;
+}
+
+.table td {
+  border-top: none;
 }
 
 .reserve-btn {
