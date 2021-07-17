@@ -5,6 +5,8 @@
   <!-- Required meta tags always come first -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" 
+  content="Cliche Cafe is a cafe, bubble tea bar, and lounge where you can hangout or do some work.">
 
   <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -14,7 +16,6 @@
   <link rel="stylesheet" href="css/style.css" />
   <!-- endbuild -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Cliche Cafe</title>
 </head>
@@ -28,7 +29,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item my-2"><a class="navbar-brand" href="index.html"><i class="fa fa-md fa-heart"></i></a></li>
+          <li class="nav-item my-2"><a class="navbar-brand" href="index.html" aria-label="homepage"><i class="fa fa-md fa-heart"></i></a></li>
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -58,7 +59,7 @@
           We also have a special bubble tea bar with original drinks where people can enjoy the combination of bubble
           tea flavors & alcohol.</p>
       </div>
-      <img src="images/food/halo-halo.jpg" class="img-fluid rounded d-none d-md-block mt-5 w-50"
+      <img src="images/food/halo-halo.jpg" width="600" height="300" class="img-fluid rounded d-none d-md-block mt-5 w-50"
         alt="Picture of halo halo">
     </div>
   </div>
@@ -69,7 +70,7 @@
         <h2>Events</h2>
         <p class="lead">Some of Cliche Cafe's monthly events include book club meets, mahjong games and lessons, guest
           speakers, board game nights, and cooking events.</p>
-        <p><img src="images/yellowmug-coffee-book.png" class="img-fluid rounded  mx-auto d-block"
+        <p><img src="images/yellowmug-coffee-book.png" width="800" height="300" class="img-fluid rounded  mx-auto d-block"
             alt="Coffee mug on book"></p>
         <p class="lead">We do our best to support the local community by hosting live music performances by local
           musicians, showcasing art created by locals every season, and we also have events with information and
@@ -100,10 +101,10 @@
     <div class="container py-3">
       <div class="row">
         <div class="col col-6 text-center">
-          <a href="http://yelp.com/"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
-          <a href="http://instagram.com/"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
-          <a href="http://twitter.com/"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
-          <a href="http://youtube.com/"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
+          <a href="http://yelp.com/" aria-label="Yelp" target="_blank"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
+          <a href="http://instagram.com/" aria-label="Instagram" target="_blank"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
+          <a href="http://twitter.com/" aria-label="Twitter" target="_blank"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
+          <a href="http://youtube.com/" aria-label="YouTube" target="_blank"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
         </div>
         <div class="col text-right">
           <a id="hoursButton" role="button">Hours & Contact Us</a>

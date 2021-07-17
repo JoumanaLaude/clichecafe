@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
 $text-color: #55433B;
 $light-brown: #B0765E;
 $light-orange: #ffe2ad;
@@ -41,6 +43,7 @@ body {
    /* carousel headers */
    font-family: $body-font;
    font-weight: 700;
+   font-display: swap;
    color: $light-orange;
    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.438); }
  
@@ -48,6 +51,7 @@ body {
    /* section headers */
    font-family: $body-font;
    font-size: 2.4rem;
+   font-display: swap;
    font-weight: 300;
    color: $text-color;
    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5); }
@@ -56,6 +60,7 @@ body {
    /* menu items */
    font-family: $body-font;
    font-size: 1.4rem;
+   font-display: swap;
    font-weight: 300;
    color: $text-color;
    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5); }

@@ -5,6 +5,8 @@
   <!-- Required meta tags always come first -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" 
+  content="Cliche Cafe is a cafe, bubble tea bar, and lounge where you can hangout or do some work.">
 
   <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -13,8 +15,6 @@
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="css/style.css" />
   <!-- endbuild -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Cliche Cafe</title>
 </head>
@@ -28,7 +28,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item my-2"><a class="navbar-brand" href="index.html"><i class="fa fa-md fa-heart"></i></a></li>
+          <li class="nav-item my-2"><a class="navbar-brand" href="index.html" aria-label="homepage"><i class="fa fa-md fa-heart"></i></a></li>
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -53,7 +53,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner" role="listbox" aria-label="Homepage carousel">
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active"
           style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url('images/carousel-boba-resize.jpg')">
@@ -77,7 +77,7 @@
           <div class="carousel-caption d-none d-md-block">
             <h1 class="display-3">Learn & grow</h1>
             <p class="lead">Providing people with a space to learn more and grow.</p>
-            <button type="button" class="btn btn-light"><a href="about.html">Learn More</a></button>
+            <button type="button" class="btn btn-light"><a href="about.html">About Us</a></button>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@
         </p>
       </div>
       <div class="col d-none d-lg-block my-3">
-        <img src="images/bao-macarons.png" class="img-fluid rounded float-right" alt="Image of bao themed macarons">
+        <img src="images/bao-macarons.png" width="600" height="300" class="img-fluid rounded float-right" alt="Image of bao themed macarons">
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@
         <h2>Current Menu</h2>
         <p class="lead">We serve a different menu each season. Currently serving our spring menu. <a
             href="menus.html"><strong>View Full Menu</strong></a></p>
-        <img src="images/mango-pudding-jelly.jpg" class="img-fluid rounded" alt="Popular mango jelly pudding">
+        <img src="images/mango-pudding-jelly.jpg" width="300" height="220" class="img-fluid rounded" alt="Popular mango jelly pudding">
 
       </div>
       <div class="col-4 d-none d-lg-block">
@@ -137,7 +137,7 @@
   <div class="container container-hr p-5">
     <div class="row">
       <div class="col d-none d-lg-block">
-        <img src="images/cafe-outside-resize.jpg" class="img-fluid rounded" alt="Image of cafe outside">
+        <img src="images/cafe-outside-resize.jpg" width="600" height="300" class="img-fluid rounded" alt="Image of cafe outside">
       </div>
       <div class="col col-sm">
         <h2>Lounge & Workspace</h2>
@@ -172,10 +172,10 @@
     <div class="container py-3">
       <div class="row">
         <div class="col col-6 text-center">
-          <a href="http://yelp.com/"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
-          <a href="http://instagram.com/"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
-          <a href="http://twitter.com/"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
-          <a href="http://youtube.com/"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
+          <a href="http://yelp.com/" aria-label="Yelp" target="_blank"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
+          <a href="http://instagram.com/" aria-label="Instagram" target="_blank"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
+          <a href="http://twitter.com/" aria-label="Twitter" target="_blank"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
+          <a href="http://youtube.com/" aria-label="YouTube" target="_blank"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
         </div>
         <div class="col text-right">
           <a id="hoursButton" role="button">Hours & Contact Us</a>

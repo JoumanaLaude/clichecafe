@@ -5,6 +5,8 @@
   <!-- Required meta tags always come first -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" 
+  content="Cliche Cafe is a cafe, bubble tea bar, and lounge where you can hangout or do some work.">
 
   <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -13,8 +15,6 @@
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="css/style.css" />
   <!-- endbuild -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Cliche Cafe</title>
 </head>
@@ -28,7 +28,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item my-2"><a class="navbar-brand" href="index.html"><i class="fa fa-md fa-heart"></i></a></li>
+          <li class="nav-item my-2"><a class="navbar-brand" href="index.html" aria-label="homepage"><i class="fa fa-md fa-heart"></i></a></li>
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="form-group row">
-            <label for="datetime" class="col col-form-label">Date and Time:</label>
+            <label for="datetime-input" class="col col-form-label">Date and Time:</label>
             <div class="col-8">
               <input class="form-control" type="datetime-local" value="2021-05-15T12:30:00" id="datetime-input">
             </div>
@@ -85,7 +85,7 @@
                 <option value="five">5</option>
                 <option value="six">6</option>
               </select>
-              <span id="guestsHelpBlock" class="form-text text-muted">Max: Up to party of 6.</span>
+              <span id="guestsHelpBlock" class="form-text">Max: Up to party of 6.</span>
             </div>
           </div>
           <div class="form-group row">
@@ -106,7 +106,7 @@
                   class="custom-control-input" value="no-preference">
                 <label for="radio_2" class="custom-control-label">No preference</label>
               </div>
-              <span id="radioHelpBlock" class="form-text text-muted">Select indoor or outdoor preference, or
+              <span id="radioHelpBlock" class="form-text">Select indoor or outdoor preference, or
                 none.</span>
             </div>
           </div>
@@ -173,10 +173,10 @@
     <div class="container py-3">
       <div class="row">
         <div class="col col-6 text-center">
-          <a href="http://yelp.com/"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
-          <a href="http://instagram.com/"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
-          <a href="http://twitter.com/"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
-          <a href="http://youtube.com/"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
+          <a href="http://yelp.com/" aria-label="Yelp" target="_blank"><i class="fa fa-lg fa-yelp pt-3 mx-3"></i></a>
+          <a href="http://instagram.com/" aria-label="Instagram" target="_blank"><i class="fa fa-lg fa-instagram pt-3 mx-3"></i></a>
+          <a href="http://twitter.com/" aria-label="Twitter" target="_blank"><i class="fa fa-lg fa-twitter pt-3 mx-3"></i></a>
+          <a href="http://youtube.com/" aria-label="YouTube" target="_blank"><i class="fa fa-lg fa-youtube pt-3 mx-3"></i></a>
         </div>
         <div class="col text-right">
           <a id="hoursButton" role="button">Hours & Contact Us</a>
